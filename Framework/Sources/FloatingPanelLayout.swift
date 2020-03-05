@@ -553,7 +553,7 @@ class FloatingPanelLayoutAdapter {
         if target == .hidden {
             self.backdropView.alpha = 0.0
         } else {
-            self.backdropView.alpha = layout.backdropAlphaFor(position: target)
+//            self.backdropView.alpha = layout.backdropAlphaFor(position: target)
         }
     }
 
